@@ -1,0 +1,32 @@
+body {
+	background-color: rgb(225, 225, 225);
+}
+
+#area51 {
+	background-color:rgb(255, 0, 0);
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 100px;
+	top: 100px;
+}
+
+#area52 {
+	background-color: rgb(0, 0, 255);
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:300px;
+	left: 300px;
+	border: rgb(175, 175, 175);
+	border-radius: 10px;
+}
+
+#area53 {
+	background-color: rgb(255, 255, 0);
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	top: 30%;
+	right: 30%;
+}
