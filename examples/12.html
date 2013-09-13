@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A CSS3/jQuery Example</title>
+			<link rel="stylesheet" href="./css/12.css">
+			<script type="text/javascript" src="./js/jquery.js"></script>
+			<script type="text/javascript" src="./js/12.js"></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<a href="/">
+				<div id="title">devfest.js</div>
+			</a>
+		</div>
+
+		<div id="space">
+			<div id="divLogin">
+				<form id="login" method="post" action="login.do">
+					<input type="email" name="email" placeholder="Your registered EMail ID">
+					<input type="password" name="password" placeholder="Your password">
+					<input type="submit" value="Login!">
+				</form>
+				<div id="caption">Welcome aboard!</div>
+			</div>
+
+			<div id="divRegister">
+				<form id="register" method="post" action="register.do">
+					<input type="text" name="username" placeholder="Your username">
+					<br>
+					<input type="email" name="email" placeholder="Your valid EMail ID">
+					<br>
+					<input type="password" name="password" placeholder="Your password">
+					<br>
+					<input type="password" name="cpassword" placeholder="Confirm your password">
+					<br><br>
+					<input type="submit" value="Register!">
+				</form>
+			</div>
+
+			<div id="divSign">
+				<button id="loginPopper">Login</button>
+				<button id="registerPopper">Sign Up</button>
+			</div>
+		</div>
+	</body>
+</html>
